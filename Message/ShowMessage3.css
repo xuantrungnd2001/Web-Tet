@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    background-image: url("theme8.png");
+    background-size: 101% 100%;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+    /* cái này làm thanh nav-bar ngắn lại và chui vào giữa*/
+    /* margin: 0px; */
+}
+
+.navbar-custom {
+    font-size: xx-large;
+    background-color: #ea3913;
+}
+
+.dropdown .dropdown-menu a {
+    font-family: 'Amatic SC', cursive;
+    color: yellow;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: xx-large;
+    font-family: 'Amatic SC', cursive;
+    color: yellow;
+}
+
+.dropdown-item {
+    font-size: xx-large;
+    font-family: 'Amatic SC', cursive;
+}
+
+.container .dropdown .dropdown-menu a:hover {
+    color: #fff;
+    background-color: #ee4e4e;
+    border-color: #fff;
+}
+
+.title {
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 196, 1);
+    text-transform: uppercase;
+}
+
+.table {
+    padding:  -50% 50%;
+    width: 70%;
+}
+
+.box {
+    width: 30%;
+    height: 300px;
+    position: relative;
+    overflow: auto;
+    background-image: url("note2.png");
+    background-size: 100% 100%;
+    display: inline-block;
+}
+
+.content {
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    margin: 25px 40px;
+    text-align: left;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.snowflake {
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #ebebeb;
+    user-select: none;
+    z-index: 1000;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.snowflake:hover {
+    cursor: default
+}

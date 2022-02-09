@@ -1,0 +1,193 @@
+body {
+  background-image: url("theme8.png");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  display: grid;
+  place-items: center;
+}
+a {
+  font-size: xx-large;
+  text-decoration: none;
+  color: rgb(255, 196, 1)
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-size: xx-large;
+  font-family: 'Amatic SC', cursive;
+  color: yellow;
+}
+.navbar-custom {
+  font-size: xx-large;
+  background-color: #ea3913;
+}
+
+.dropdown .dropdown-menu a {
+  font-family: 'Amatic SC', cursive;
+  color: yellow;
+  text-decoration: none;
+}
+
+
+
+.dropdown-item {
+  font-family: 'Amatic SC', cursive;
+}
+
+.container .dropdown .dropdown-menu a:hover {
+  color: #fff;
+  background-color: #ee4e4e;
+  border-color: #fff;
+}
+.board {
+  margin: 0px 250px;
+  padding: 30px 20px;
+  border: 0px;
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 50px;
+  font-family: 'Amatic SC', cursive;
+  color: rgb(255, 196, 1);
+  text-transform: uppercase;
+  font-style: bold;
+}
+
+.message {
+  text-align: center;
+  margin: 0px 30px;
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  text-transform: uppercase;
+  font-style: bold;
+}
+
+.click-area {
+  display: inline-block;
+  text-align: center;
+}
+
+/* ------------ */
+
+.button-TMN {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 10px 30px;
+  border-width: 0px;
+  background-image: url('img/TMN.png');
+  background-size: 150px 150px;
+  background-color: transparent;
+}.button-PHV {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 10px 30px;
+  border-width: 0px;
+  background-image: url('img/PHV1.png');
+  background-size: 150px 150px;
+  background-color: transparent;
+}.button-NDH {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 10px 30px;
+  border-width: 0px;
+  background-image: url('img/NDH.png');
+  background-size: 150px 150px;
+  background-color: transparent;
+}.button-NCT {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 10px 30px;
+  border-width: 0px;
+  background-image: url('img/NCT.png');
+  background-size: 150px 150px;
+  background-color: transparent;
+}.button-DVH {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 10px 30px;
+  border-width: 0px;
+  background-image: url('img/DVH.png');
+  background-size: 150px 150px;
+  background-color: transparent;
+}.button-TTTH {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 10px 30px;
+  border-width: 0px;
+  background-image: url('img/TTTH.png');
+  background-size: 150px 150px;
+  background-color: transparent;
+}.button-VTH {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 10px 30px;
+  border-width: 0px;
+  background-image: url("img/VTH1.png");
+  background-size: 150px 150px;
+  background-color: transparent;
+}
+
+.hidden-text {
+  font-size: 22px;
+  margin: 77px 0px 0px 0px;
+  color: transparent;
+  font-family: 'Amatic SC', cursive;
+}
+
+.button-TMN:hover .hidden-text { 
+  color: black;
+}.button-TMN:hover {
+  border: 3px solid gold;
+  border-radius: 25px;
+}
+
+.button-PHV:hover .hidden-text {
+  color: white;
+}.button-PHV:hover {
+  border: 3px solid gold;
+  border-radius: 25px;
+}
+
+.button-NDH:hover .hidden-text {
+  color: white;
+}.button-NDH:hover {
+  border: 3px solid gold;
+  border-radius: 25px;
+}
+
+.button-NCT:hover .hidden-text {
+  color: white;
+}.button-NCT:hover {
+  border: 3px solid gold;
+  border-radius: 25px;
+}
+
+.button-DVH:hover .hidden-text {
+  color: white;
+}.button-DVH:hover {
+  border: 3px solid gold;
+  border-radius: 25px;
+}
+
+.button-TTTH:hover .hidden-text {
+  color: black;
+}.button-TTTH:hover {
+  border: 3px solid gold;
+  border-radius: 25px;
+}
+
+.button-VTH:hover .hidden-text {
+  color: white;
+}.button-VTH:hover {
+  border: 3px solid gold;
+  border-radius: 25px;
+}

@@ -1,0 +1,4 @@
+cột id giá trị tự tăng bắt đầu từ 0
+cột user = cột id bảng db user
+cột status tất cả giá trị = 0
+cột avatar name tất cả giá trị bằng default.jpg

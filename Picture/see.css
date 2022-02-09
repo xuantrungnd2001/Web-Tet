@@ -1,0 +1,137 @@
+body {
+    text-align: center;
+    background-image: url("1.png");
+    background-size: 101% 100%;
+    background-attachment: fixed;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 196, 1);
+    display: grid;
+    place-items: center;
+    /* cái này làm thanh nav-bar ngắn lại và chui vào giữa*/
+    margin: 0;
+}
+
+.navbar-custom {
+    font-size: xx-large;
+    background-color: #ea3913;
+}
+
+.dropdown .dropdown-menu a {
+    font-family: 'Amatic SC', cursive;
+    color: yellow;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: xx-large;
+    font-family: 'Amatic SC', cursive;
+    color: yellow;
+}
+
+.dropdown-item {
+    font-family: 'Amatic SC', cursive;
+    font-size: xx-large;
+}
+
+.container .dropdown .dropdown-menu a:hover {
+    color: #fff;
+    background-color: #ee4e4e;
+    border-color: #fff;
+}
+
+.title {
+    font-size: 47px;
+    color: rgb(255, 196, 1);
+    text-transform: uppercase;
+}
+
+.table {
+    padding: 0% 15%;
+}
+
+.content {
+    font-size: 30px;
+    margin: 30px 50px;
+    text-align: left;
+}
+
+.box {
+    width: 28%;
+    height: 250px;
+    position: relative;
+    overflow: auto;
+    background-size: 100% 100%;
+    display: inline-block;
+    backface-visibility: hidden;
+    padding: 0 5px;
+}
+
+.box .image {
+    width: 95%;
+    height: 95%;
+    border: 5px solid rgb(255, 196, 1);
+    transition: .5s ease;
+    opacity: 1;
+    border-radius: 30px;
+}
+
+.overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    z-index: 2;
+}
+
+.box:hover .image {
+    opacity: 0.3;
+}
+
+.box:hover .overlay {
+    opacity: 1;
+}
+
+p {
+    font-size: xx-large;
+    text-decoration: none;
+    color: rgb(255, 196, 1)
+}
+
+p:hover {
+    color: rgb(255, 196, 1)
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.snowflake {
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #ebebeb;
+    user-select: none;
+    z-index: 1000;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.snowflake:hover {
+    cursor: default
+}
